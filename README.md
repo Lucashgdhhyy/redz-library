@@ -87,3 +87,17 @@ Tab1:AddSlider({
   end
 })
 ```
+
+## Dropdown
+```lua
+local Dropdown = Tab2:AddDropdown({
+  Name = "Players List",
+  Description = "Select the <font color='rgb(88, 101, 242)'>Number</font>",
+  Options = {"one", "two", "three"},
+  Default = "two",
+  Flag = "dropdown teste",
+  Callback = function(Value)
+    
+  end
+})
+```
