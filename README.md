@@ -42,12 +42,8 @@ local Section = Tab2:AddSection({"Section"})
 ```lua
 local Paragraph = Tab2:AddParagraph({"Paragraph", "This is a Paragraph\nSecond Line"})
 ```
-## Matematica (meme)
+## Dialog
 ```lua
-local Number = 0
-local Button = Tab2:AddButton({"Button", function()
-  Number = Number + 1
-  Section:Set("Number : " .. tostring(Number))
   local Dialog = Window:Dialog({
     Title = "Dialog",
     Text = "This is a Dialog",
@@ -63,7 +59,6 @@ local Button = Tab2:AddButton({"Button", function()
       end}
     }
   })
-end})
 ```
 ## Button
 ```lua
